@@ -1,4 +1,4 @@
-# Azure powershell scrips that I use
+# Azure powershell scripts that I use
 
 ### Creating new web app (optionally resource group and app service plan)
     ./NewWebapp.ps1 -Name "foo_webapp" -ResourceGroupName "foo_resourcegroup" -ServicePlanName "foo_serviceplan" [-CreateNewResourceGroup] [-CreateNewServicePlan]
